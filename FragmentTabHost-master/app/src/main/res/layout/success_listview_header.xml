@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/listview_header_border">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="反馈时间"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:id="@+id/fankui_header_time"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="反馈内容"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:id="@+id/fankui_header_neirong"
+        android:layout_height="50dp" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="反馈人员"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:id="@+id/fankui_header_name"
+        />
+
+
+
+
+
+</LinearLayout>

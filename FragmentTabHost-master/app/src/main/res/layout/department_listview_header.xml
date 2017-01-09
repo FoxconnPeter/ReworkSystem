@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/listview_header_border">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="工号"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:id="@+id/depart_gonghao_hearder"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="邮箱"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:id="@+id/depart_mail_hearder"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:id="@+id/depart_name_hearder"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="BU"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:id="@+id/depart_bu_header"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textSize="@dimen/font_size_20"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="部门"
+        android:gravity="center"
+        android:id="@+id/depart_depart_hearder"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>

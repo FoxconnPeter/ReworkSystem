@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linedele"
+    android:orientation="horizontal"
+
+    >
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="@dimen/font_size_15"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:id="@+id/wipsearch_item_time"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="不良类型"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/colorBlue"
+        android:id="@+id/wipsearch_item_leixing"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="SN"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/colorBlue"
+        android:id="@+id/wipsearch_item_sn"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

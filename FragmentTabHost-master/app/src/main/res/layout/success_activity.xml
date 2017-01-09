@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/success_title"
+        android:layout_width="match_parent"
+
+        android:padding="25dp"
+        android:layout_height="50dp"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+
+
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.56"
+            android:gravity="center"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名："
+                android:layout_margin="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/font_size_15"
+                android:textColor="@color/bg_black"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:textSize="@dimen/font_size_15"
+                android:textColor="@color/bg_black"
+                android:id="@+id/mine_xingming"
+
+
+                />
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="工号："
+                android:layout_margin="20dp"
+                android:textSize="@dimen/font_size_15"
+                android:textColor="@color/bg_black"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/font_size_15"
+                android:textColor="@color/bg_black"
+                android:id="@+id/mine_gonghao"
+
+
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            >
+
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/succes_text"
+                android:layout_weight="0.4"
+                android:textSize="@dimen/font_size_20"
+
+                android:background="@drawable/checkin_text_bg"
+                android:hint="请输入您所要反馈的内容"
+                android:textColor="@color/black"
+                android:gravity="top"
+
+
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="提交"
+                android:layout_weight="0.05"
+                android:textSize="@dimen/font_size_15"
+                android:id="@+id/submit_success"
+                android:layout_margin="10dp"
+                android:background="@drawable/search_selector"
+                />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.19"
+
+        >
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="反馈时间"
+            android:gravity="center"
+            android:textSize="@dimen/font_size_15"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/nocoll_biankuang_bg"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/font_size_15"
+            android:text="反馈内容"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/nocoll_biankuang_bg"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="反馈人员"
+            android:textSize="@dimen/font_size_15"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/nocoll_biankuang_bg"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <ListView
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/listView"
+        android:layout_weight="1"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="true"
+        android:divider="@color/colorBlack"
+        android:background="@drawable/border" />
+
+
+
+</LinearLayout>

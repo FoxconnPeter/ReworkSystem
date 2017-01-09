@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <include layout="@layout/checkout_title"
+        android:layout_width="match_parent"
+        android:padding="25dp"
+        android:layout_height="50dp"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+         android:layout_weight="1.5"
+        android:background="@drawable/linearbg"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="2dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.75"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="DateTime:"
+                android:textSize="@dimen/font_size_15"
+
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="请输入数据"
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:id="@+id/checkout_time"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Model:"
+                android:gravity="center"
+                android:layout_weight="0.5"
+
+                android:textSize="@dimen/font_size_15"
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:hint="请输入数据"
+
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:id="@+id/checkout_model"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+
+
+            android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Station:"
+            android:gravity="center"
+            android:layout_weight="0.75"
+            android:textSize="@dimen/font_size_15"
+
+
+            />
+        <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+         android:layout_weight="1.4"
+            android:maxLines="1"
+            android:hint="请输入数据"
+
+            android:background="@drawable/checkin_biankuang_bg"
+            android:textSize="@dimen/font_size_15"
+            android:id="@+id/checkout_station"
+            />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="PartSn:"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:textSize="@dimen/font_size_15"
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:hint="请输入数据"
+                android:gravity="center"
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:id="@+id/checkout_partsn"
+                />
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="S/N:"
+                android:layout_weight="0.75"
+
+
+                android:textSize="@dimen/font_size_15"
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:gravity="center"
+                android:maxLines="1"
+                android:hint="请输入数据"
+
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:id="@+id/checkout_sn"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Location:"
+                android:layout_weight="0.5"
+
+                android:gravity="center"
+                android:textSize="@dimen/font_size_15"
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                 android:layout_weight="1"
+
+                android:maxLines="1"
+                android:hint="请输入数据"
+                android:gravity="center"
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:id="@+id/checkout_location"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:layout_weight="0.75"
+                android:gravity="center"
+                android:textSize="@dimen/font_size_15"
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:maxLines="1"
+                android:hint="请输入数据"
+                android:gravity="center"
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:id="@+id/checkout_des"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Engneer:"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textSize="@dimen/font_size_15"
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLines="1"
+                android:hint="请输入数据"
+
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:id="@+id/checkout_endneer"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="维修类型:"
+                 android:layout_weight="0.75"
+                android:textSize="@dimen/font_size_15"
+                android:gravity="center"
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:gravity="center"
+                android:id="@+id/spiner_edit_leixing"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_width="1dp"
+
+                android:entries="@array/leixing"
+                android:gravity="center"
+                android:id="@+id/checkout_spinner_leixing"
+
+                style="@style/spinner_style"
+
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="不良现象:"
+                android:layout_weight="0.75"
+                android:gravity="center"
+                android:textSize="@dimen/font_size_15"
+
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+
+                android:id="@+id/spiner_edit_xianxiang"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_width="1dp"
+
+
+                android:entries="@array/xianxiang"
+
+                android:id="@+id/checkout_spinner_xianxiang"
+
+                style="@style/spinner_style"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+
+
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="D/C:"
+                android:layout_weight="0.75"
+                android:textSize="@dimen/font_size_15"
+                android:gravity="center"
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:hint="请输入数据"
+                android:gravity="center"
+                android:id="@+id/checkout_dc"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="L/C:"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:textSize="@dimen/font_size_15"
+
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:hint="请输入数据"
+                android:gravity="center"
+                android:id="@+id/checkout_lc"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="厂商:"
+                android:gravity="center"
+                android:textSize="@dimen/font_size_15"
+                android:layout_weight="0.75"
+                />
+            <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:hint="请输入数据"
+                android:background="@drawable/checkin_biankuang_bg"
+                android:textSize="@dimen/font_size_15"
+                android:layout_weight="1.4"
+                android:id="@+id/checkout_changshang"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:id="@+id/checkin_button"
+                android:text="导入"
+                android:layout_weight="1 "
+                android:layout_margin="2dp"
+                android:gravity="center"
+                  android:textSize="@dimen/font_size_15"
+                android:onClick="click1"
+                android:background="@drawable/search_selector"
+                />
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/spiner_text"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

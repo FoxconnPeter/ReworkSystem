@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ctype">
+        <item>选择不良类型</item>
+        <item>制程不良 </item>
+        <item>产线手焊</item>
+        <item>批量不良</item>
+        <item>其他(选择此项请手动输入)</item>
+
+    </string-array>
+    <string-array name="xianxiang">
+        <item>选择不良现象</item>
+        <item>版本升级 </item>
+        <item>来料不良</item>
+        <item>设计问题</item>
+        <item>产线制成问题</item>
+        <item>PM/PE问题</item>
+        <item>其他(选择此项请手动输入)</item>
+
+
+    </string-array>
+
+    <string-array name="leixing">
+    <item>选择不良类型</item>
+    <item>制程不良 </item>
+    <item>产线手焊</item>
+    <item>批量重工</item>
+    <item>其他(选择此项请手动输入)</item>
+    </string-array>
+
+
+
+
+
+
+
+
+</resources>

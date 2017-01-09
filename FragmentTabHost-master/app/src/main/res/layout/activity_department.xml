@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    >
+
+    <include layout="@layout/department_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+    <com.app.gaolonglong.fragmenttabhost.View.ClearEditText
+        android:layout_width="0dp"
+        android:layout_weight="1.7"
+
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/search"
+        android:hint="输入工号或者姓名查询"
+        android:drawableLeft="@drawable/search"
+        android:background="@drawable/search_bg"
+        android:layout_below="@+id/back"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="8dp"
+        android:textSize="20sp"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="搜索"
+        android:id="@+id/department_search_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/search_selector"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/white"
+
+
+
+        />
+
+
+</LinearLayout>
+
+
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/listView"
+        android:layout_weight="0.26"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="true"
+        android:divider="@color/colorBlack"
+        android:background="@drawable/border" />
+
+
+
+
+</LinearLayout>

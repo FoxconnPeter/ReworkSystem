@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:background="#7adfb8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/home_title"
+        layout="@layout/hometitle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+
+
+
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/home_title"
+        android:orientation="vertical"
+
+        >
+
+        <com.app.gaolonglong.fragmenttabhost.bannerview.ViewFlow
+            android:id="@+id/viewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="180sp"
+
+            />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:padding="3dip" >
+
+        </FrameLayout>
+
+        <com.app.gaolonglong.fragmenttabhost.bannerview.CircleFlowIndicator
+            android:id="@+id/viewflowindic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+
+            android:padding="2dip"
+            android:layout_margin="2dp"
+            app:activeColor="#ff0000"
+            app:activeType="fill"
+            app:circleSeparation="20dip"
+            app:inactiveColor="#ffffff"
+            app:inactiveType="fill"
+            app:radius="4dip" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/main_notice"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/framelayout">
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/main_notice"
+        android:layout_height="wrap_content"
+
+        >
+
+        <GridView
+            android:id="@+id/gv_home"
+            android:numColumns="1"
+            android:verticalSpacing="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </GridView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#E0EEE0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <include
+        android:id="@+id/home_title"
+        layout="@layout/mintitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:id="@+id/xinxi"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+
+        android:layout_weight="0.5"
+
+
+     >
+
+
+        <com.app.gaolonglong.fragmenttabhost.View.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mine_tou"
+            android:src="@drawable/checklist"
+            android:layout_weight="0.1"
+
+            android:layout_marginTop="10dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.4"
+            android:layout_gravity="center"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名："
+                    android:id="@+id/mine_ChineseName"
+
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/bg_black"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/bg_black"
+                    android:id="@+id/mine_name"
+
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="工号："
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/bg_black"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_size_15"
+                    android:textColor="@color/bg_black"
+                    android:id="@+id/mine_Came"
+
+
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2.5"
+
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="0.5"
+        android:background="@drawable/min_linear_selector"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/department"
+        android:gravity="center"
+        android:layout_below="@+id/xinxi"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dapart"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bg_black"
+            android:text="人员信息"
+            android:textSize="@dimen/font_size_15"
+            android:layout_marginLeft="20dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/min_linear_selector"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:id="@+id/min_password"
+        android:gravity="center"
+        android:layout_below="@+id/succes"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/password"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bg_black"
+            android:text="密码修改"
+            android:textSize="@dimen/font_size_15"
+            android:layout_marginLeft="20dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/min_linear_selector"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/connect_we"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:layout_below="@+id/min_password"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/connect"
+            android:id="@+id/conect_img"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bg_black"
+            android:text="联系我们"
+            android:textSize="@dimen/font_size_15"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/conect_des"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/min_linear_selector"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/succes"
+
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/department"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fankui"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bg_black"
+            android:text="意见反馈"
+            android:textSize="@dimen/font_size_15"
+            android:layout_marginLeft="20dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            >
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+</LinearLayout>
+

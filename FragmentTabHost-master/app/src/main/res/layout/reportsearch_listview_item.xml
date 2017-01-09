@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:background="@drawable/listview_header_border">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Data Time"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/colorBlue"
+        android:id="@+id/report_item_time"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="Model"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/colorBlue"
+        android:gravity="center"
+
+        android:id="@+id/report_item_model"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size_15"
+        android:layout_height="wrap_content"
+        android:text="S/N"
+        android:textColor="@color/colorBlue"
+        android:gravity="center"
+
+        android:id="@+id/report_item_sn"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textSize="@dimen/font_size_15"
+        android:layout_weight="1"
+        android:textColor="@color/colorBlue"
+        android:layout_height="wrap_content"
+        android:text="Station"
+        android:gravity="center"
+
+        android:id="@+id/report_item_station"
+        />
+    <View
+        android:layout_width="1dp"
+
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textSize="@dimen/font_size_15"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="@color/colorBlue"
+        android:gravity="center"
+        android:id="@+id/report_item_location"
+        />
+
+
+
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="@color/colorBlue"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size_15"
+        android:layout_height="wrap_content"
+        android:text="零件料号"
+        android:gravity="center"
+        android:id="@+id/report_item_liaohao"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="@color/colorBlue"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size_15"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:gravity="center"
+        android:id="@+id/report_item_des"
+        />
+    <View
+        android:layout_width="1dp"
+
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="@color/colorBlue"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Engneer"
+        android:textSize="@dimen/font_size_15"
+        android:gravity="center"
+        android:id="@+id/report_item_engneer"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="@color/colorBlue"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="维修类型"
+        android:textSize="@dimen/font_size_15"
+        android:gravity="center"
+        android:id="@+id/report_item_leixing"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="@color/colorBlue"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size_15"
+        android:layout_height="wrap_content"
+        android:text="不良现象"
+        android:gravity="center"
+        android:id="@+id/report_item_xianxiang"
+        />
+
+
+
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="@color/colorBlue"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size_15"
+        android:layout_height="wrap_content"
+        android:text="L/C"
+        android:gravity="center"
+        android:id="@+id/report_item_lc"
+        />
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/colorBlue"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="D/C"
+        android:gravity="center"
+        android:id="@+id/report_item_dc"
+        />
+
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"/>
+    <TextView
+        android:layout_width="0dp"
+        android:textColor="@color/colorBlue"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size_15"
+        android:layout_height="wrap_content"
+        android:text="厂商"
+        android:gravity="center"
+        android:id="@+id/report_item_changshang"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

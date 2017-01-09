@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="反馈内容"
+
+
+            android:textSize="@dimen/font_size_15"
+            android:textColor="@color/colorBlue"
+            android:id="@+id/fankui_neirong"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:text="反馈时间:"
+            android:textSize="@dimen/font_size_15"
+            android:layout_marginLeft="5dp"
+
+            android:textColor="@color/colorBlue"
+            android:id="@+id/fankuitext_time"
+            android:layout_weight="0.5"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:text="反馈时间"
+            android:textSize="@dimen/font_size_15"
+            android:layout_weight="1"
+
+            android:textColor="@color/colorBlue"
+            android:id="@+id/fankui_time"
+
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:text="反馈人员:"
+            android:layout_weight="0.5"
+
+            android:textSize="@dimen/font_size_15"
+            android:textColor="@color/colorBlue"
+            android:id="@+id/fankuitext_name"
+
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:text="反馈人员"
+            android:layout_weight="0.5"
+            android:textSize="@dimen/font_size_15"
+
+            android:textColor="@color/colorBlue"
+            android:id="@+id/fankui_name"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

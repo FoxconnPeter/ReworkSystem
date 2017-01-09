@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_bg">#fff0f0f0</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#666666</color>
+    <color name="bg_color">#ededed</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="translucent_background">#80000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="color_toolbar">#40baf8</color>
+    <color name="alertKk">#778899</color>
+    <color name="view">#c2c2c2</color>
+    <color name="blue">#3F51B5</color>
+     <color name="bgcolorlv">#7adfb8</color>
+
+
+    <color name="titleColor">#757575</color>
+    <color name="titleColorSelected">#F54D33</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="header">#58567d</color>
+    <color name="grgray">#686868</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#00000000</color>
+    <color name="reveal_color">#303F9F</color>
+    <color name="bottom_color">#3086e4</color>
+    <color name="bottom_bg">#40baf8</color>
+    <color name="button_bg">#FFFF</color>
+    <color name="beijing">#EBEBEB</color>
+    <color name="bg_window">#ffe5e5e5</color>
+    <color name="bg_page">#ffebebeb</color>
+    <color name="bg_tab_pressed">#6633b5e5</color><!-- 蓝色 -->
+    <color name="bg_tab_normal">#00000000</color>
+    <!-- <color name="bg_tab_pressed2">#ff3898ff</color>  -->
+
+    <color name="tab_text_color_selected">#ff0084ff</color> <!-- 选中文字颜色 -->
+    <color name="tab_text_color_normal">#ff737373</color> <!-- 未选中文字颜色 -->
+
+
+
+    <color name="txt_title">#ff333333</color>
+    <color name="txt_small">#ff7a7a7a</color>
+    <color name="txt_big">#ff717171</color>
+    <color name="item_divider">#ffd7d7d7</color>
+    <color name="detail_screen_bg">#adadad</color>
+    <color name="progress">#0294f0</color>
+    <color name="menu_bg_normal">#f0f1f3</color>
+    <color name="menu_bg_press">#cecece</color>
+    <color name="bg_black">#000000</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_topbar">#FCFCFC</color>
+    <color name="bg_gray">#00F1F1F1</color>
+
+
+    <color name="text_gray">#8D7A71</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_yellow">#FFC800</color>
+    <color name="text_topbar">#694E42</color>
+    <color name="div_white">#E5E5E5</color>
+
+
+
+
+    <color name="colorGray">#99aab2</color>
+    <color name="colorBlue">#627DC0</color>
+    <color name="colorGreen">#ADFF2F</color>
+    <color name="colorLightBlue">#dbeef4</color>
+
+
+</resources>

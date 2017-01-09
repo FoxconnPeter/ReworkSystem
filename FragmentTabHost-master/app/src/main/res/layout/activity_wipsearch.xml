@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <include layout="@layout/wipsearch_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/wipsearch_time"
+            android:hint="请选择要查询的时间"
+            android:layout_weight="3"
+            android:textSize="@dimen/font_size_15"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/checkin_biankuang_bg"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:textSize="@dimen/font_size_15"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/wipsearch_search"
+            android:gravity="center"
+            android:background="@drawable/search_selector"
+            />
+
+    </LinearLayout>
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/listView"
+        android:layout_weight="0.26"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="true"
+        android:divider="@color/colorBlack"
+        android:background="@drawable/border" />
+
+
+</LinearLayout>
